@@ -1,0 +1,19 @@
+# Progress Log
+Run: 4e8fcc21-a2b9-4fa5-9f1a-e70914c58b07
+Task: North Star MVP repo handoff and pipeline validation
+Started: 2026-02-23 14:02 Europe/Stockholm
+
+## Codebase Patterns
+- Workflow step prompts are stored as Markdown files under `workflows/`.
+- Repo-scoping guard logic lives in `scripts/check-workflow-repo-scope.js` and is enforced in `build`/`lint`.
+- Guard tests use Node's built-in test runner (`node --test`) under `tests/`.
+
+---
+
+## 2026-02-23 14:10 - US-001: Lock planner and workflow inputs to northstar-agent-ops only
+- Added workflow step templates for planner/setup/develop/verify/test/pr/review under `workflows/`, each pinned to `/Users/benjaminwaye/.openclaw/workspace/northstar-agent-ops`.
+- Added `scripts/check-workflow-repo-scope.js` guard to enforce required workflow files, required repo path, and forbid legacy repo identifier usage in workflow/script files.
+- Added `tests/workflow-repo-scope.guard.test.js` with pass/fail coverage for guard behavior.
+- Updated npm scripts so build/lint run the guard, tests run both dashboard validation and guard tests, and typecheck validates JS syntax in scripts/tests.
+- **Learnings:** For string-ban checks where grep must remain clean, construct forbidden identifiers dynamically in guard/test source.
+---
