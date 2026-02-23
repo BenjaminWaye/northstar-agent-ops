@@ -4,6 +4,7 @@
   "private": true,
   "description": "North-Star Multi-Agent Ops MVP bootstrap for Rinderr",
   "scripts": {
+    "setup:contract": "node scripts/run-setup-contract.js",
     "build": "node scripts/build-check.js && node scripts/check-workflow-repo-scope.js",
     "test": "node scripts/validate-dashboard-data.js && node --test tests/*.test.js",
     "lint": "node scripts/build-check.js && node scripts/check-workflow-repo-scope.js",
