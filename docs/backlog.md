@@ -1,0 +1,10 @@
+# Implementation Backlog (Effort Estimate)
+
+- Event bus abstraction + persistence adapters (2d)
+- Agent orchestrator runtime (3d)
+- KPI ingestion connectors (2d)
+- Dashboard API service (3d)
+- Frontend dashboard scaffolding (3d)
+- Approval/escalation policy engine (2d)
+- Human control console (2d)
+- Observability + audit logs (2d)

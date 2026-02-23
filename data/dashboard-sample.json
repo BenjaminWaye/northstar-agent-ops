@@ -1,0 +1,22 @@
+{
+  "northStar": {
+    "name": "Weekly Active Teams Delivering Value",
+    "baseline": 12,
+    "target": 40,
+    "current": 14,
+    "window": "weekly"
+  },
+  "leadingIndicators": [
+    {"name": "Idea-to-PR cycle time", "baseline": 9.5, "target": 5.0, "current": 8.4, "unit": "days"},
+    {"name": "PR merge rate within 48h", "baseline": 0.41, "target": 0.75, "current": 0.48, "unit": "ratio"},
+    {"name": "Deploy success rate", "baseline": 0.93, "target": 0.98, "current": 0.95, "unit": "ratio"},
+    {"name": "Experiment win rate", "baseline": 0.21, "target": 0.35, "current": 0.24, "unit": "ratio"}
+  ],
+  "boards": {
+    "runStatus": {"active": 9, "blocked": 2, "awaitingApproval": 3},
+    "kpiTrend": {"points": 12},
+    "experiments": {"running": 4, "won": 1, "lost": 2, "pending": 1},
+    "prDeploy": {"openPRs": 5, "ciFailing": 1, "deploys24h": 3},
+    "blockerRisk": {"critical": 1, "high": 2, "medium": 5}
+  }
+}
