@@ -5,8 +5,9 @@ Started: 2026-02-23 13:58 Europe/Stockholm
 
 ## Codebase Patterns
 - Repository is documentation-first with lightweight Node scripts for validation (`scripts/build-check.js`, `scripts/validate-dashboard-data.js`).
-- Dashboard sample data lives in `data/dashboard.sample.json` and is validated via `npm test`.
+- Dashboard sample data lives in `data/dashboard-sample.json` and is validated via `npm test`.
 - Architecture and operating model docs are under `docs/` and intended for immediate implementation handoff.
+- CRM data flows from `data/crm-leads.json` and is embedded into the dashboard via `scripts/update-crm-dashboard.js` (`npm run crm:sync`).
 
 ---
 
@@ -15,4 +16,11 @@ Started: 2026-02-23 13:58 Europe/Stockholm
 - Added this progress log for workflow traceability.
 - Ran build/lint and test scripts before PR creation.
 - **Learnings:** Keep MVP coordination artifacts in docs + sample data so agents can start without runtime dependencies.
+---
+
+## 2026-02-27 09:15 - crm-module: Add CallMyCall CRM module
+- Added `data/crm-leads.json` with 10 Swedish-market leads plus CLI scripts to sync (`scripts/update-crm-dashboard.js`) and edit (`scripts/crm-update-lead.js`).
+- Extended dashboard sample + validation scripts, npm scripts, and README/docs to describe the CRM board, pipeline, and update flow.
+- Ran `npm run build`, `npm test`, and `npm run crm:sync` to ensure the new CRM data passes validation.
+- **Learnings:** The dashboard JSON can embed entire feature modules as long as validation scripts enforce schema parity with their source data.
 ---
