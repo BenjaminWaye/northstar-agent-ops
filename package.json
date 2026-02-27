@@ -7,6 +7,7 @@
     "build": "node scripts/build-check.js",
     "test": "node scripts/validate-dashboard-data.js",
     "lint": "node scripts/build-check.js",
-    "typecheck": "echo 'No typecheck configured yet'"
+    "typecheck": "echo 'No typecheck configured yet'",
+    "crm:sync": "node scripts/update-crm-dashboard.js"
   }
 }

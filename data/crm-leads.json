@@ -1,0 +1,102 @@
+[
+  {
+    "company": "Telia Cx Labs",
+    "contactRole": "Head of Enterprise Partnerships",
+    "stage": "Target identified",
+    "lastTouch": "2026-02-20",
+    "nextAction": "Validate seat estimates with Telia procurement and confirm SIP trunk requirements",
+    "notes": "Call switching pilot aligns with their new managed AI call routing initiative.",
+    "tags": ["Telecom", "Stockholm", "Enterprise"],
+    "sourceLink": "https://www.telia.se/foretag"
+  },
+  {
+    "company": "Ericsson Innovation Hub",
+    "contactRole": "Director of Automation Programs",
+    "stage": "Qualified",
+    "lastTouch": "2026-02-24",
+    "nextAction": "Send security one-pager referencing Ericsson Zero-Trust checklist",
+    "notes": "Need proof that we can ingest Nordic languages with mixed accents.",
+    "tags": ["5G", "Automation", "Kista"],
+    "sourceLink": "https://www.ericsson.com/innovation"
+  },
+  {
+    "company": "Klarna Merchant Ops",
+    "contactRole": "Lead Ops Strategist",
+    "stage": "Outreach drafted",
+    "lastTouch": "2026-02-25",
+    "nextAction": "Localize outreach mail with SEK savings model and legal contact",
+    "notes": "Interested in reducing chargeback call handling time.",
+    "tags": ["Fintech", "Stockholm", "High-volume"],
+    "sourceLink": "https://www.klarna.com/se/business"
+  },
+  {
+    "company": "Hemnet Partner Sales",
+    "contactRole": "Inside Sales Manager",
+    "stage": "Outreach sent",
+    "lastTouch": "2026-02-22",
+    "nextAction": "Follow up after sportlov, reference new integrations deck",
+    "notes": "Team handles 2k+ listings calls each week.",
+    "tags": ["Proptech", "SMB", "Stockholm"],
+    "sourceLink": "https://www.hemnet.se/foretag"
+  },
+  {
+    "company": "Svea Solar Enterprise",
+    "contactRole": "Commercial Operations Lead",
+    "stage": "Replied",
+    "lastTouch": "2026-02-21",
+    "nextAction": "Schedule discovery to map inbound vs outbound split",
+    "notes": "Need multilingual call routing for installers across regions.",
+    "tags": ["Climate", "Field service", "Solna"],
+    "sourceLink": "https://sveasolar.com/se"
+  },
+  {
+    "company": "Vy Buss Sverige",
+    "contactRole": "Customer Care Director",
+    "stage": "Meeting requested",
+    "lastTouch": "2026-02-19",
+    "nextAction": "Prepare agenda focusing on driver schedule escalations",
+    "notes": "Wants integration with current Zendesk macros.",
+    "tags": ["Transport", "Gothenburg", "Public sector"],
+    "sourceLink": "https://www.vy.se"
+  },
+  {
+    "company": "Voi Fleet Control",
+    "contactRole": "Regional Ops Manager",
+    "stage": "Outreach sent",
+    "lastTouch": "2026-02-23",
+    "nextAction": "Share rider safety script and request operations SLA data",
+    "notes": "Opportunity to bundle stolen-vehicle hotline with CallMyCall patching.",
+    "tags": ["Micromobility", "Scaleup", "Stockholm"],
+    "sourceLink": "https://www.voi.com"
+  },
+  {
+    "company": "Storytel B2B",
+    "contactRole": "Head of Partner Success",
+    "stage": "Replied",
+    "lastTouch": "2026-02-24",
+    "nextAction": "Send sandbox credentials for AI-guided escalation tree",
+    "notes": "Looking for on-brand Swedish tone control.",
+    "tags": ["Media", "Subscription", "Stockholm"],
+    "sourceLink": "https://storytel.com"
+  },
+  {
+    "company": "Northvolt Workforce Digital",
+    "contactRole": "Employee Experience Lead",
+    "stage": "Qualified",
+    "lastTouch": "2026-02-18",
+    "nextAction": "Map shift handover protocol and confirm internal security review date",
+    "notes": "Need failover voice tree for battery plant operations.",
+    "tags": ["Industrial", "Skellefteå", "Scale"],
+    "sourceLink": "https://northvolt.com"
+  },
+  {
+    "company": "Telenor Business Stockholm",
+    "contactRole": "Enterprise CX Strategist",
+    "stage": "Won/Lost",
+    "lastTouch": "2026-02-17",
+    "nextAction": "Collect NPS baseline before go-live and document procurement lessons",
+    "notes": "Pilot closed (Won) for 50 concurrent call licenses.",
+    "tags": ["Telecom", "Stockholm", "Enterprise"],
+    "sourceLink": "https://www.telenor.se/foretag"
+  }
+]

@@ -28,3 +28,8 @@
 - Deploy success rate < 95% over 24h => rollback review required
 - Blocker resolution time > 72h median => freeze new experiments
 - North-star drops > 15% WoW => incident mode
+
+## CRM Module (CallMyCall)
+- **Leads table**: columns Company, Contact Role, Stage, Last Touch, Next Action, Notes, Tags (Swedish-market), Source Link.
+- **Pipeline board**: stages Target identified → Qualified → Outreach drafted → Outreach sent → Replied → Meeting requested → Won/Lost with live counts from `data/crm-leads.json`.
+- **Data flow**: edit `data/crm-leads.json` or use `scripts/crm-update-lead.js`, then run `npm run crm:sync` to embed CRM data inside `data/dashboard-sample.json` for visualization.
